@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.header {
+  background-color: #152663;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border-bottom: solid white;
+}
+
+.header > p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #E5E5E5;
+  background-position: center ;
+  margin-bottom: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textOnImage {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+button{
+  /* margin-bottom: 30px;
+  border: solid 4px;
+  border-radius: 90px;
+  border-color: white;
+  background: rgba(255, 255, 255, .6);
+  padding: 8px 60px;
+  font-size: 20px;
+  font-weight: bold; */
+  margin: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+}
+.box2 {
+  background-color: #F1EEEE;
+  padding: 10px 0px 40px;
+}
+
+.card-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-card {
+  margin: 0 auto;
+  background-color: white;
+  width: 86%;
+}
+
+.car-pic {
+  margin: auto;
+  width: 95%;
+  height: 180px;
+  background-image: url(./pics/black-c.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* 
+img {
+
+} */
+
+.box3 {
+  margin: 20px;
+}
+
+.infoHolder {
+  padding: 25px;
+  background-color: #F1EEEE;
+}
+
+
+.footer {
+  flex: 1; 
 }
